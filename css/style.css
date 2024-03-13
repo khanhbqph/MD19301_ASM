@@ -1,0 +1,95 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+
+.menu {
+
+    list-style: none;
+    display: flex;
+}
+
+.menu .item {
+    margin: 0px 25px;
+}
+
+.menu .item a {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: initial;
+}
+
+.menu .item a :hover {
+    background-color: pink;
+}
+
+.header {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: auto;
+    padding: 0px auto;
+    flex-basis: 100%;
+}
+.header {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#actions {
+    display: flex;
+}
+
+marquee {
+    color: gre;
+    width: 100%;
+    font-size: 20px;
+ display: flex;
+    background-color: aqua;
+
+}
+
+@media only screen and (min-width: 365px) {
+
+    /* Áp dụng kiểu CSS khi chiều rộng của thiết bị nhỏ hơn hoặc bằng 365px */
+    /* Đặt các quy tắc CSS tại đây */
+    div marquee {
+        width: 100%;
+        color: red;
+        font-size: 16px;
+        background-color: aqua;
+    }
+}
